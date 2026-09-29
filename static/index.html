@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#142b3b">
+  <meta name="description" content="Градският транспорт на Стара Загора: автобуси на живо, спирки, разписания и планиране на пътуване.">
+  <title>Транспорт · Стара Загора</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://tile.openstreetmap.org">
+  <link rel="stylesheet" href="./vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="./styles.css?v=2.1">
+  <script src="./vendor/leaflet/leaflet.js" defer></script>
+  <script src="./transit-core.js?v=2" defer></script>
+  <script src="./app.js?v=2.1" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#panel-content">Към линиите и разписанията</a>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" id="home" aria-label="Начало — Транспорт Стара Загора"><span class="brand-mark" aria-hidden="true">SZ<span>↗</span></span><span><strong>Транспорт<span class="brand-dot">.</span></strong><small>СТАРА ЗАГОРА</small></span></button>
+      <div class="topbar-right"><time id="clock">—</time><button class="pill" id="live-status" title="Превозни средства на живо"><span class="status-dot"></span><span>Свързване…</span></button><button class="icon-button" id="settings-open" aria-label="Настройки и информация" title="Настройки">⚙</button></div>
+    </header>
+    <div class="workspace">
+      <aside class="panel" id="panel" aria-label="Транспортен справочник">
+        <button class="sheet-toggle" id="sheet-toggle" aria-expanded="true">Карта и справочник <span>⌄</span></button>
+        <div class="panel-head"><label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Линия, спирка или номер…" autocomplete="off" aria-label="Търси линия или спирка"><kbd>/</kbd></label></div>
+        <nav class="tabs" aria-label="Раздели"><button data-tab="routes" class="active"><span>▤</span>Линии</button><button data-tab="journey"><span>⇄</span>Пътуване</button><button data-tab="nearby"><span>⌖</span>Наблизо</button><button data-tab="favorites"><span>☆</span>Любими</button><button data-tab="live"><span>●</span>На живо</button></nav>
+        <div class="panel-scroll" id="panel-content" tabindex="-1"><div class="loading">Зареждане на транспортната мрежа…</div></div>
+        <footer class="panel-footer"><span>Разписания: <a href="https://livetransport.eu" target="_blank" rel="noopener">LiveTransport</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></span><button data-action="info">За данните ↗</button></footer>
+      </aside>
+      <main class="map-pane" id="map-pane" aria-label="Карта на градския транспорт">
+        <div id="map" aria-label="Интерактивна карта на Стара Загора"></div>
+        <div class="map-summary" id="map-summary">Зареждане на картата…</div>
+        <div class="map-actions"><button id="locate" class="map-button" aria-label="Моето местоположение" title="Моето местоположение">⌖</button><button id="map-reset" class="map-button" aria-label="Центрирай над Стара Загора" title="Центрирай над града">⌂</button><button id="layers-open" class="map-button" aria-label="Слоеве на картата" title="Слоеве">▱</button><button id="fullscreen" class="map-button" aria-label="Цял екран" title="Цял екран">⛶</button></div>
+        <div class="map-legend"><span><i class="legend-bus"></i>Автобус</span><span><i class="legend-trolley"></i>Тролейбус</span><span><i class="legend-stop"></i>Спирка</span></div>
+        <div class="feed-notice" id="feed-notice" role="status">Проверка на GPS потока…</div>
+        <button class="follow-bar" id="follow-bar" hidden>Проследяване <span id="follow-label"></span> · Спри ×</button>
+        <button class="mobile-open" id="mobile-open" hidden>Линии и спирки ↑</button>
+      </main>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <dialog id="settings-dialog" aria-labelledby="settings-title"><div class="dialog-head"><h2 id="settings-title">Твоята карта</h2><button data-close-dialog="settings-dialog" class="icon-button" aria-label="Затвори настройки">×</button></div><div class="dialog-body">
+    <h3>Изглед и слоеве</h3><label class="setting">Тема на интерфейса<select id="theme"><option value="light">Светла</option><option value="dark">Тъмна</option><option value="auto">Според устройството</option></select></label><label class="setting">Стил на картата<select id="map-style"><option value="soft">Приглушени цветове</option><option value="standard">Класически OpenStreetMap</option></select></label>
+    <label class="setting">Спирки<input type="checkbox" id="show-stops" checked></label><label class="setting">Превозни средства<input type="checkbox" id="show-vehicles" checked></label><label class="setting">Всички маршрути на картата<input type="checkbox" id="show-lines"></label><label class="setting">Автоматично обновяване на GPS<input type="checkbox" id="auto-refresh" checked></label><button class="button secondary full" id="refresh-now">Обнови GPS сега</button>
+    <h3>Източници и актуалност</h3><div id="data-info" class="info-text"></div><p class="info-text">GPS показва последната получена позиция. Часовете и търсенето на пътуване са по публикуваното разписание; не включват закъснения, отменени курсове или временни отклонения.</p><p class="info-text">Любимите и настройките се пазят само в този браузър. За геолокация браузърът обикновено изисква HTTPS. Можеш и да избереш точка от картата.</p><p class="info-text">Клавиши: <kbd>/</kbd> търсене · <kbd>Esc</kbd> затваряне.</p>
+  </div></dialog>
+  <dialog id="share-dialog" aria-labelledby="share-title"><div class="dialog-head"><h2 id="share-title">Сподели този изглед</h2><button data-close-dialog="share-dialog" class="icon-button" aria-label="Затвори споделяне">×</button></div><div class="dialog-body"><label>Линк<input id="share-url" type="text" readonly></label><button class="button full" id="copy-link">Копирай линка</button><p class="muted">Адресът включва избраната линия, спирка или превозно средство.</p></div></dialog>
+  <noscript>За интерактивната карта е необходим включен JavaScript.</noscript>
+</body>
+</html>

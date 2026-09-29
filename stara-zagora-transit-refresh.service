@@ -1,0 +1,9 @@
+[Unit]
+Description=Update Stara Zagora published timetables
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/stara-zagora-transit/refresh_data.py
+ExecStartPost=/usr/bin/systemctl restart stara-zagora-transit.service

@@ -1,0 +1,473 @@
+{
+  "schema": 1,
+  "updated": "2026-09-28",
+  "description": "Historical operator fleet register, Appendix 2, pages 21–23. Match by plate; do not infer unknown models from routes or number ranges.",
+  "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf",
+  "source_year": 2016,
+  "by_plate": {
+    "1031": {
+      "model": "Škoda 26Tr Solaris",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1032": {
+      "model": "Škoda 26Tr Solaris",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1033": {
+      "model": "Škoda 26Tr Solaris",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1034": {
+      "model": "Škoda 26Tr Solaris",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1035": {
+      "model": "Škoda 26Tr Solaris",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1036": {
+      "model": "Škoda 26Tr Solaris",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1037": {
+      "model": "Škoda 26Tr Solaris",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1038": {
+      "model": "Škoda 26Tr Solaris",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1039": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1040": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1041": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1042": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1043": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1044": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1045": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1046": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1047": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1048": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1049": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1050": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=21",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1051": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "1052": {
+      "model": "Solaris Trollino 12",
+      "type": "trolley",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT5938BP": {
+      "model": "SOR NB 18",
+      "type": "articulated_bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT5940BP": {
+      "model": "SOR NB 18",
+      "type": "articulated_bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7911BP": {
+      "model": "SOR NB 18",
+      "type": "articulated_bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7896BP": {
+      "model": "SOR NB 18",
+      "type": "articulated_bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7907BP": {
+      "model": "SOR NB 18",
+      "type": "articulated_bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT5934BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT5935BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT6805BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT6804BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT6803BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT6801BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT6799BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT6783BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT6785BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT6784BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7356BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7360BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7364BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7367BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7369BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7380BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7375BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7359BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7372BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7371BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7706BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7710BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7719BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=22",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7724BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7725BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7916BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7922BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7894BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7732BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7734BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7741BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7738BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7739BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7891BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7748BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7752BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7754BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7760BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7756BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7910BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7904BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7917BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7925BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7914BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7918BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7921BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7897BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7913BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7903BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    },
+    "CT7908BP": {
+      "model": "Solaris Urbino 12",
+      "type": "bus",
+      "source": "https://www.szprevozi.com/uploads/procurements/dogovor3.pdf#page=23",
+      "note": "По списък на превозвача от 2016 г.; съвпадение по регистрационен/служебен номер."
+    }
+  },
+  "by_id": {},
+  "by_label": {}
+}

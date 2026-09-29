@@ -1,0 +1,22 @@
+[Unit]
+Description=Stara Zagora transit realtime bridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/stara-zagora-transit
+EnvironmentFile=-/etc/default/stara-zagora-transit
+ExecStart=/usr/bin/python3 /opt/stara-zagora-transit/server.py
+Restart=on-failure
+RestartSec=4
+NoNewPrivileges=true
+ProtectHome=true
+ProtectSystem=strict
+PrivateTmp=true
+MemoryMax=160M
+
+[Install]
+WantedBy=multi-user.target
